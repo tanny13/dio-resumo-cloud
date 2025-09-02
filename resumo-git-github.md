@@ -100,3 +100,32 @@ flowchart TD
     M --> E
 
 
+1.  **`mkdir nome-repositorio`**
+    *(Cria a pasta para o projeto)*
+
+2.  **`cd nome-repositorio`**
+    *(**Entra** na pasta do projeto)*
+
+3.  **`git init`**
+    *(Inicia um repositório Git vazio **dentro** da pasta)*
+
+4.  **`touch README.md`**
+    *(Cria um arquivo de exemplo)*
+
+5.  **`git status`**
+    *(Verifica o que mudou - bom para confirmar)*
+
+6.  **`git add .`**
+    *(Adiciona **todos** os arquivos novos/modificados para a "área de preparação")*
+
+7.  **`git commit -m "Commit inicial do projeto"`**
+    *(Salva as alterações no histórico local)*
+
+8.  **`git log`**
+    *(Opcional: verifica se o commit foi criado com sucesso)*
+
+9.  **`git remote add origin https://...`**
+    *(Conecta seu repositório local a um repositório no GitHub)*
+
+10. **`git push -u origin main`**
+    *(Envia seus commits para o GitHub pela primeira vez)*
