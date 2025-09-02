@@ -1,9 +1,9 @@
-Branch no Git
+# Branch no Git
 
-Uma branch é como uma linha do tempo paralela no seu projeto.
-Ela permite que você trabalhe em novas funcionalidades ou correções sem mexer diretamente na branch principal (geralmente a main ou master).
+*Uma branch é como uma linha do tempo paralela no seu projeto.
+Ela permite que você trabalhe em novas funcionalidades ou correções sem mexer diretamente na branch principal (geralmente a main ou master).*
 
-🔹 Por que usar branches?
+## Por que usar branches?
 
 Trabalhar em novas features de forma isolada.
 
@@ -25,17 +25,17 @@ Facilitar testes antes de integrar o código à branch principal.
 | `git switch -c nome-da-branch`   | Cria e muda para a nova branch (atalho)                 |
 
 git checkout -b nova-feature
-(cria e muda para a branch nova-feature)
+(`cria e muda para a branch nova-feature`)
 
 git add .
 git commit -m "Implementa nova feature"
-(Faz alterações, adiciona e commita:)
+(`Faz alterações, adiciona e commita`)
 
 git checkout main
-(Volta para a branch main:)
+(`Volta para a branch main`)
 
 git merge nova-feature
-(Mescla as alterações da branch criada com a main)
+(`Mescla as alterações da branch criada com a main`)
 
 git branch -d nova-feature
-(Deleta a branch criada)
+(`Deleta a branch criada`)
