@@ -5,7 +5,7 @@
 * Executa o seu código em uma infraestrutura de computação de alta disponibilidade e executa toda a administração dos recursos computacionais, incluído manutenção do servidor e do sistema operacional.
 * É um serviço Serveless: sem servidor é a arquitetura nativa da nuvem que permite mais das suas responsabilidades operacionais à AWS
 * Oferece vários benefícios, incluindo: execução sob demanda, escalonamento automático
-![imagem explicação aws lambda](images/modulo.png)
+![imagem explicação aws lambda](assets/modulo7.png)
 
 ## Amazon ECS e EKS
 * São serviços de containers gerenciados
