@@ -1,11 +1,14 @@
 # Desenvolvimento e Ferramentas
 ## AWS SDKs e AWS CLI: Ferramentas de desenvolvimento e linha de comando
-*O AWS SDK nos permite interagir com os serviços da AWS diretamente em sua linguagem de programação de nossa preferencia
+### AWS SDK
+* O AWS SDK nos permite interagir com os serviços da AWS diretamente em sua linguagem de programação de nossa preferencia
 * Conjunto de bibliotecas para várias linguagens (Python, Java, JavaScript, Go, C#, etc.).
 * Permite integrar serviços AWS diretamente em aplicações.
 * Exemplo em Python (boto3):
+  
 ![imagem comandos para instalar SDK](assets/modulo10.png)
 
+### AWS CLI
 * AWS CLI é uma ferramenta baseada em linha de commando para gerenciar a AWS
 * Permite executar quase todas as operações que você faria no console da AWS, mas de forma automática e scriptável.
 
