@@ -27,6 +27,7 @@
 * Formatos para criação de modelos:
 	* JSON
 	* YAML
+   
 ![Imagem explicação oque é CloudFormation](assets/AWS-CloudFormation.png)
 
 ## AWS Code Deploy: implantação automatizada de aplicações
